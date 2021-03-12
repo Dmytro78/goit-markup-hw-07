@@ -883,11 +883,11 @@ li {
   opacity: 1;
 }
 
-.portfolio .name-cards {
+.portfolio-cards {
   padding: 20px 24px;
 }
 
-.portfolio .name-card {
+.portfolio-cards__name {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
@@ -896,10 +896,7 @@ li {
   margin-bottom: 4px;
 }
 
-.card-web,
-.card-app,
-.card-design,
-.card-market {
+.portfolio-cards__text {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
