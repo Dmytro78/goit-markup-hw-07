@@ -1,0 +1,19 @@
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  /* outline: 2px solid red;*/
+}
+
+.header__container {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+}
