@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,UAAU,AAAC,CACT,KAAK,CAAE,MAAM,CACb,OAAO,CAAE,MAAM,CACf,MAAM,CAAE,MAAM,CAGf,AAED,AAAA,kBAAkB,AAAC,CACjB,OAAO,CAAE,IAAI,CACb,UAAU,CAAE,GAAG,CACf,aAAa,CAAE,GAAG,CACnB",
-    "sources": [
-        "../sass/components/container.scss"
-    ],
-    "names": [],
-    "file": "container.min.css"
-}
