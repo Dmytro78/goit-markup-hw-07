@@ -51,4 +51,8 @@ li {
 .footer__logo {
   text-decoration: none;
 }
+
+.img {
+  display: block;
+}
 /*# sourceMappingURL=variables.css.map */
