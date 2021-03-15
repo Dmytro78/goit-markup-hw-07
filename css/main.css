@@ -596,7 +596,7 @@ li {
 }
 
 .modal-form__group:hover .modal__input + .modal__icon,
-.modal-form__group:hover .modal__input + .modal__icon {
+.modal-form__group:focus .modal__input + .modal__icon {
   fill: var(--button-color);
 }
 
