@@ -54,6 +54,8 @@ li {
 
 .img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .about-us {
@@ -417,6 +419,7 @@ li {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+  font-weight: 500;
 }
 
 .logo {
@@ -547,6 +550,7 @@ li {
   line-height: 14px;
   letter-spacing: 0.01em;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .modal__input {
@@ -573,7 +577,6 @@ li {
   position: relative;
   height: 40px;
   margin-top: 4px;
-  margin-bottom: 10px;
 }
 
 .modal__icon {
@@ -767,6 +770,7 @@ li {
 }
 
 .portfolio-btns__btn {
+  font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
@@ -1035,6 +1039,7 @@ li {
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
+  font-weight: 500;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
@@ -1125,6 +1130,7 @@ li {
 }
 
 .team-list__cards {
+  margin-top: -4px;
   padding: 30px 32px;
   background-color: var(--text-color);
 }
@@ -1183,21 +1189,36 @@ li {
 }
 
 .works-image__box {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   width: 370px;
+  height: 23.8%;
   background-color: var(--gradient-color-work);
   bottom: 1%;
 }
 
 .works-image__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 27px 0;
   margin: 0px;
   color: var(--text-color);
 }

@@ -5,14 +5,20 @@
 }
 
 .works-image__box {
-  display: block;
+  display: flex;
+  align-self: center;
+  justify-content: center;
   position: absolute;
   width: 370px;
+  height: 23.8%;
   background-color: var(--gradient-color-work);
   bottom: 1%;
 }
 
 .works-image__name {
+  display: flex;
+  align-self: center;
+  justify-content: center;
   text-align: center;
   font-size: 14px;
   line-height: 16px;
@@ -20,7 +26,6 @@
   text-transform: uppercase;
   font-weight: bold;
 
-  padding: 27px 0;
   margin: 0px;
 
   color: var(--text-color);
